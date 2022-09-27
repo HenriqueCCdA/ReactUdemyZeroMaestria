@@ -5,6 +5,8 @@ import TemplateExpressions from './components/TemplateExpressions';
 // syles / CSS
 import './App.css';
 import MyComponent from './components/MyComponent';
+import Events from './components/Events';
+import Challenge from './components/Challenge';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <FirstComponent />
       <TemplateExpressions />
       <MyComponent />
+      <Events />
+      <Challenge />
     </div>
   );
 }
